@@ -1,3 +1,6 @@
+import React, { ReactNode } from 'react';
+import { useState } from 'react';
+
 interface State {
     hasError: boolean;
   }
@@ -38,4 +41,3 @@ interface State {
   }
   
   export default ErrorBoundary;
-  
